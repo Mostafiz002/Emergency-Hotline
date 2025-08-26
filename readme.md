@@ -11,5 +11,3 @@
 - **A Relevant Logo** at the top-center
 - **Section Title** in the center
 - **A Relevant Slogan** in the bottom Center
-
-# Emergency-Hotline
