@@ -13,3 +13,4 @@ for (let i = 0; i < copyButtons.length; i++) {
     copyCount.innerText = totalCopy;
   });
 }
+
