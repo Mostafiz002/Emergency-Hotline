@@ -27,13 +27,13 @@ for (let i = 0; i < calls.length; i++) {
               class="mt-3 p-4 bg-[#fafafa] flex justify-between items-center rounded-lg gap-2"
             >
               <div>
-                <h4 class="text-base font-semibold text-black">
+                <h4 class="text-[14px] md:text-base font-semibold text-black">
                   ${serviceTitle}
                 </h4>
-                <p class="text-gray-600 text-sm">${num}</p>
+                <p class="text-gray-600 text[12] md:text-sm">${num}</p>
               </div>
               <div>
-                <p class="text-sm font-normal text-black">${time}</p>
+                <p class="text-[12px] font-normal text-black">${time}</p>
               </div>
             </div>
       `;

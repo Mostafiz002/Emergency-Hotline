@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emergency Hotline Service</title>
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
@@ -15,26 +15,26 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body class="inter-font bg-[#F5FFF6]">
+  <body class="inter-font bg-[#F5FFF6] overflow-x-hidden">
     <header class="bg-white">
       <nav
-        class="flex flex-col items-center gap-6 md:flex md:flex-row md:justify-between md:items-center py-5 px-6 md:px-o bg-white max-w-[1400px] mx-auto"
+        class="flex flex-col items-center gap-6 md:flex md:flex-row md:justify-between md:items-center py-5 px-6 bg-white max-w-[1452px] mx-auto"
       >
         <div class="flex items-center gap-[10px]">
           <img class="w-[50px]" src="./assets/logo.png" alt="" />
-          <h3 class="text-2xl/7 text-[#006747] font-bold">
+          <h3 class="text-xl md:text-2xl/7 text-[#006747] font-bold">
             Emergency<br />Service
           </h3>
         </div>
-        <div class="flex items-center gap-[20px]">
+        <div class="flex items-center justify-between gap-3 md:gap-[20px]">
           <div
-            class="flex items-center justify-center gap-[10px] w-[100px] py-3.5 rounded-4xl bg-[#41FF6B]/10"
+            class="flex items-center justify-center gap-[10px] px-6 md:w-[100px] h-[48px] rounded-4xl bg-[#41FF6B]/10"
           >
             <p id="heart-count" class="text-base font-bold text-black">0</p>
             <img class="w-[22px]" src="./assets/heart.png" alt="" />
           </div>
           <div
-            class="flex items-center justify-center gap-[10px] w-[100px] py-3.5 rounded-4xl bg-[#41FF6B]/10"
+            class="flex items-center justify-center gap-[10px] px-4 md:w-[100px] h-[48px] rounded-4xl bg-[#41FF6B]/10"
           >
             <p id="available-balance" class="text-base font-bold text-black">
               100
@@ -43,7 +43,7 @@
           </div>
 
           <button
-            class="btn px-9 py-6 rounded-4xl bg-[#00A63E] text-white hover:bg-[#008b33]"
+            class="btn px-6 md:px-9 py-6 rounded-4xl bg-[#00A63E] text-white hover:bg-[#008b33]"
           >
             <span id="copy-count">0</span> Copy
           </button>
@@ -55,10 +55,12 @@
         class="flex flex-col justify-center items-center gap-3 p-12 bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223]"
       >
         <img class="w-[92px]" src="./assets/logo-dark.png" alt="" />
-        <h1 class="text-white text-center text-[40px] font-semibold">
+        <h1
+          class="text-white text-center text-3xl md:text-[40px] font-semibold"
+        >
           Emergency Service Directory
         </h1>
-        <p class="font-normal text-center text-white text-base">
+        <p class="font-normal text-center text-white text-[12px] md:text-base">
           Government Emergency Services at Your Fingertip – A Project by
           Government of the People’s Republic of Bangladesh
         </p>
@@ -82,7 +84,9 @@
                 alt=""
               />
             </div>
-            <h3 class="mt-4 mb-1 text-[18px] text-black font-bold service-title">
+            <h3
+              class="mt-4 mb-1 text-[18px] text-black font-bold service-title"
+            >
               National Emergency Number
             </h3>
             <p class="text-gray-700 text-sm services">National Emergency</p>
@@ -123,7 +127,9 @@
                 alt=""
               />
             </div>
-            <h3 class="mt-4 mb-1 text-[18px] text-black font-bold service-title">
+            <h3
+              class="mt-4 mb-1 text-[18px] text-black font-bold service-title"
+            >
               Police Helpline Number
             </h3>
             <p class="text-gray-700 text-sm services">Police</p>
@@ -164,7 +170,9 @@
                 alt=""
               />
             </div>
-            <h3 class="mt-4 mb-1 text-[18px] text-black font-bold service-title">
+            <h3
+              class="mt-4 mb-1 text-[18px] text-black font-bold service-title"
+            >
               Fire Service Number
             </h3>
             <p class="text-gray-700 text-sm services">Fire Service</p>
@@ -204,7 +212,9 @@
                 alt=""
               />
             </div>
-            <h3 class="mt-4 mb-1 text-[18px] text-black font-bold service-title">
+            <h3
+              class="mt-4 mb-1 text-[18px] text-black font-bold service-title"
+            >
               Ambulance Service
             </h3>
             <p class="text-gray-700 text-sm services">Ambulance</p>
@@ -246,7 +256,9 @@
                 alt=""
               />
             </div>
-            <h3 class="mt-4 mb-1 text-[18px] text-black font-bold service-title">
+            <h3
+              class="mt-4 mb-1 text-[18px] text-black font-bold service-title"
+            >
               Women & Child Helpline
             </h3>
             <p class="text-gray-700 text-sm services">Women & Child Helpline</p>
@@ -286,7 +298,9 @@
                 alt=""
               />
             </div>
-            <h3 class="mt-4 mb-1 text-[18px] text-black font-bold service-title">
+            <h3
+              class="mt-4 mb-1 text-[18px] text-black font-bold service-title"
+            >
               Anti-Corruption Helpline
             </h3>
             <p class="text-gray-700 text-sm services">Anti-Corruption</p>
@@ -326,7 +340,9 @@
                 alt=""
               />
             </div>
-            <h3 class="mt-4 mb-1 text-[18px] text-black font-bold service-title">
+            <h3
+              class="mt-4 mb-1 text-[18px] text-black font-bold service-title"
+            >
               Electricity Helpline
             </h3>
             <p class="text-gray-700 text-sm services">Electricity Outage</p>
@@ -366,7 +382,9 @@
                 alt=""
               />
             </div>
-            <h3 class="mt-4 mb-1 text-[18px] text-black font-bold service-title">
+            <h3
+              class="mt-4 mb-1 text-[18px] text-black font-bold service-title"
+            >
               Brac Helpline
             </h3>
             <p class="text-gray-700 text-sm services">Brac</p>
@@ -410,7 +428,9 @@
                 alt=""
               />
             </div>
-            <h3 class="mt-4 mb-1 text-[18px] text-black font-bold service-title">
+            <h3
+              class="mt-4 mb-1 text-[18px] text-black font-bold service-title"
+            >
               Bangladesh Railway Helpline
             </h3>
             <p class="text-gray-700 text-sm services">Bangladesh Railway</p>
@@ -442,13 +462,14 @@
         <div
           class="-order-1 md:order-1 p-6 mb-[30px] md:mb-0 col-span-3 bg-white rounded-xl shadow-md"
         >
-          <div class="flex justify-between items-center mb-4">
+          <div class="flex justify-between items-center md:mb-4">
             <h3 class="flex items-center gap-1.5 font-semibold text-base">
               <img class="w-[20px] h-[20px]" src="./assets/clock.png" alt="" />
               Call History
             </h3>
-            <button id="clear-btn"
-              class="btn px-9 py-6 rounded-4xl bg-[#00A63E] text-white hover:bg-[#008b33]"
+            <button
+              id="clear-btn"
+              class="btn px-6 md:px-9 py-6 rounded-4xl bg-[#00A63E] text-white hover:bg-[#008b33]"
             >
               Clear
             </button>
